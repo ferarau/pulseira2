@@ -1,0 +1,71 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    background-color: rgb(255, 221, 209);
+}
+
+header {
+    background-color: rgb(195, 47, 47);
+    color: rgb(6, 5, 4);
+    padding: 20px;
+    text-align: center;
+}
+
+.co {
+    background-color: rgb(185, 92, 92);
+    border: 1px solid;
+    width: 180px;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px rgb(96, 101, 114);
+    transition: transform 0.2s;
+}
+
+.co-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.co p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.co:hover {
+    transform: scale(1.05);
+}
+
+.co img {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 4px; 
+}
+
+.hhh {
+    background-color: rgb(255, 221, 209);
+    color: rgb(6, 5, 4);
+    padding: 20px;
+    text-align: center;
+}
+
+.copulseira2 {
+    
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid;
+    text-align: center;
+    border-radius: 0.5px;
+    justify-content: center;
+    background-color: rgb(255, 221, 209);
+}
+
+.pulseira{
+    width: 50%  ;
+}
+
+
+
